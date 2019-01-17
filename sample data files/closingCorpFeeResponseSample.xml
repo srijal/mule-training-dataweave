@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RESPONSE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <HEADER>
+        <STATUS_CODE>0</STATUS_CODE>
+        <TRANSACTION_ID>af6c3b7d-4a88-4de4-9e1d-0153dde1e57a</TRANSACTION_ID>
+    </HEADER>
+    <PAYLOAD>
+        <CREATE_QUICK_GFE_RESPONSE AccountId="8b216be2-d6c8-4f87-a00c-e2759e9b7826" SmartGFEId="15899097" LoanNumber="123" Address="123 Main St" City="Dickerson" State="CA" Zip="92121" LoanPurpose="Purchase">
+            <Criteria Name="HudMapVersion" Value="1448-V1" />
+            <Criteria Name="QuoteType" Value="PreQual" />
+            <Criteria Name="PreQualDate" Value="11/12/2018" />
+            <Criteria Name="Address" Value="123 Main St" />
+            <Criteria Name="City" Value="Dickerson" />
+            <Criteria Name="State" Value="CA" />
+            <Criteria Name="ZIP" Value="92121" />
+            <Criteria Name="CountyName" Value="San Diego" />
+            <Criteria Name="CountyId" Value="2980" />
+            <Criteria Name="Latitude" Value="32.900302" />
+            <Criteria Name="Longitude" Value="-117.206736" />
+            <Criteria Name="LotSizeSquareFeet" Value="10890" />
+            <Criteria Name="PropertyType" Value="SingleFamily" />
+            <Criteria Name="NumberOfFloors" Value="2" />
+            <Criteria Name="Bath" Value="4" />
+            <Criteria Name="Beds" Value="5" />
+            <Criteria Name="SquareFeet" Value="1500" />
+            <Criteria Name="YearBuilt" Value="1990" />
+            <Criteria Name="FoundationType" Value="PierBeam" />
+            <Criteria Name="PropertyInspectionWaiver" Value="false" />
+            <Criteria Name="NoAppraisalRequired" Value="" />
+            <Criteria Name="AmortizationType" Value="Fixed" />
+            <Criteria Name="AppraisalProductName" />
+            <Criteria Name="AdjustedLoanAmount" Value="150000" />
+            <Criteria Name="PropertyValue" Value="135000" />
+            <Criteria Name="RehabilitationCost" Value="" />
+            <Criteria Name="BorrowerName" />
+            <Criteria Name="CreatedBy" />
+            <Criteria Name="LoanNumber" Value="123" />
+            <Criteria Name="LoanPurpose" Value="Purchase" />
+            <Criteria Name="GuaranteeExpirationDate" Value="" />
+            <Criteria Name="LoanType" Value="Conventional" />
+            <Criteria Name="SettlementDate" Value="10/25/2019" />
+            <Criteria Name="PowerOfAttorney" Value="false" />
+            <Criteria Name="NumberOfLiens" Value="0" />
+            <Criteria Name="NumberOfDocumentSigningFees" Value="1" />
+            <Criteria Name="Subordination" Value="0" />
+            <Criteria Name="NumberOfAccommodationPayoffFees" Value="0" />
+            <Criteria Name="CourtesyClosingServices" Value="False" />
+            <Criteria Name="WaterQualityScanType" Value="Water Quality Inspection - Standard" />
+            <Criteria Name="NumberOfGuarantyFees" Value="1" />
+            <Criteria Name="NumberOfUpperCourtSearchFees" Value="1" />
+            <Criteria Name="NumberOfTitleInsuranceEnforcementFundFees" Value="1" />
+            <Criteria Name="IsRefinanceCashOut" Value="false" />
+            <Criteria Name="ResidenceType" Value="PrimaryResidence" />
+            <Criteria Name="EstimatedPropertyValue" Value="135000" />
+            <Criteria Name="IsPlannedUnitDevelopment" Value="False" />
+            <Criteria Name="IsRefinanceStreamline" Value="False" />
+            <Criteria Name="Fips" Value="06073" />
+            <Criteria Name="LienPositionId" Value="FirstLien" />
+            <Criteria Name="SubordinateFinancingIsNewIndicator" Value="false" />
+            <Criteria Name="SubordinateFinancingIsNewIndicatorSource" Value="default" />
+            <Criteria Name="ConstructionToPermIndicator" Value="false" />
+            <Criteria Name="ConstructionToPermIndicatorSource" Value="default" />
+            <Criteria Name="LoanProgram" Value="Standard" />
+            <HudSummary>
+                <HudItem LineNumber="1104" ReferenceNumber="1104" Name="SettlementAndEscrowService" IsAPR="true" DisclosureSectionPurchase="C" BuyerAmount="615.0">
+                    <HudPart Name="First American Title Insurance Co" IsAPR="true" BuyerAmount="615.0" ServiceType="SettlementAndEscrowService" ServiceProviderId="9ea24392-89ef-4760-80bc-6ed7c2a7ac8a" PartType="ServiceProvider" PartId="SettlementAndEscrowService" />
+                </HudItem>
+                <HudItem LineNumber="1100" ReferenceNumber="1100" Name="Lenders" IsAPR="false" DisclosureSectionPurchase="C" BuyerAmount="648.0">
+                    <HudPart Name="Lender's Title Policy" IsAPR="false" BuyerAmount="648.0" ServiceType="TitleInsurance" ServiceProviderId="9ea24392-89ef-4760-80bc-6ed7c2a7ac8a" PartType="TitleLendersPolicy" PartId="TitleLendersPolicy" />
+                </HudItem>
+                <HudItem LineNumber="1101" ReferenceNumber="1101" Name="Owners" IsAPR="false" DisclosureSectionPurchase="H" BuyerAmount="623.0">
+                    <HudPart Name="Owner's Title Policy" IsAPR="false" BuyerAmount="623.0" ServiceType="TitleInsurance" ServiceProviderId="9ea24392-89ef-4760-80bc-6ed7c2a7ac8a" PartType="TitleOwnersPolicy" PartId="TitleOwnersPolicy" />
+                </HudItem>
+                <HudItem LineNumber="1122" ReferenceNumber="1122" Name="DocumentSigningFee" IsAPR="true" DisclosureSectionPurchase="C" BuyerAmount="150.0">
+                    <HudPart Name="Document Signing Fee" IsAPR="true" BuyerAmount="150.0" ServiceType="SettlementAndEscrowService" ServiceProviderId="9ea24392-89ef-4760-80bc-6ed7c2a7ac8a" PartType="ServiceProviderFee" PartId="DocumentSigningFee" />
+                </HudItem>
+                <HudItem LineNumber="1129" ReferenceNumber="1129" Name="LoanTieIn" IsAPR="false" DisclosureSectionPurchase="C" BuyerAmount="345.0">
+                    <HudPart Name="Loan Tie-In" IsAPR="false" BuyerAmount="345.0" ServiceType="SettlementAndEscrowService" ServiceProviderId="9ea24392-89ef-4760-80bc-6ed7c2a7ac8a" PartType="ServiceProviderFee" PartId="LoanTieIn" />
+                </HudItem>
+                <HudItem LineNumber="1211" ReferenceNumber="1211" Name="County Transfer Tax" IsAPR="false" DisclosureSectionPurchase="E" SellerAmount="148.50">
+                    <HudPart Name="Documentary Transfer Tax" IsAPR="false" SellerAmount="148.50" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="CountyDeed" PartId="CountyDeedDocumentaryTransferTax" />
+                </HudItem>
+                <HudItem LineNumber="1201" ReferenceNumber="1201" Name="RecordingFee Deed" IsAPR="false" DisclosureSectionPurchase="E" BuyerAmount="36.0000">
+                    <HudPart Name="Deed - Base fee" IsAPR="false" BuyerAmount="14.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeDeed" PartId="RecordingFeeDeed" />
+                    <HudPart Name="Deed - Document page fee" IsAPR="false" BuyerAmount="9.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeDeed" PartId="RecordingFeeDeed" />
+                    <HudPart Name="Deed - Survey monument preservation fee" IsAPR="false" BuyerAmount="10.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeDeed" PartId="RecordingFeeDeed" />
+                    <HudPart Name="Deed - Real estate fraud prosecution fee" IsAPR="false" BuyerAmount="3.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeDeed" PartId="RecordingFeeDeed" />
+                </HudItem>
+                <HudItem LineNumber="1202" ReferenceNumber="1202" Name="RecordingFee Mortgage" IsAPR="false" DisclosureSectionPurchase="E" BuyerAmount="124.0000">
+                    <HudPart Name="Mortgage / Deed of Trust - Base fee" IsAPR="false" BuyerAmount="14.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeSecurityInstrument" PartId="RecordingFeeMort" />
+                    <HudPart Name="Mortgage / Deed of Trust - Document page fee" IsAPR="false" BuyerAmount="90.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeSecurityInstrument" PartId="RecordingFeeMort" />
+                    <HudPart Name="Mortgage / Deed of Trust - Excess titles fee" IsAPR="false" BuyerAmount="14.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeSecurityInstrument" PartId="RecordingFeeMort" />
+                    <HudPart Name="Mortgage / Deed of Trust - Real estate fraud prosecution fee" IsAPR="false" BuyerAmount="6.0000" ServiceType="RecordingFees" ServiceProviderId="00000000-0000-0000-0000-000000000000" PartType="RecordingFeeSecurityInstrument" PartId="RecordingFeeMort" />
+                </HudItem>
+            </HudSummary>
+        </CREATE_QUICK_GFE_RESPONSE>
+    </PAYLOAD>
+</RESPONSE>

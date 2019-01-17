@@ -1,0 +1,385 @@
+{
+  "cltv": 0.0,
+  "customerInternalId": "",
+  "estimatedFees": {
+    "feeVendorName": "",
+    "feeType": "Estimate",
+    "feePayload": "PFJFU1BPTlNFIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPgoJPEhFQURFUj4KCQk8U1RBVFVTX0NPREU+MDwvU1RBVFVTX0NPREU+CgkJPFRSQU5TQUNUSU9OX0lEPjNlYzY0ZGRiLWEyZGQtNDE4YS05MjBjLTQ0YjdhMjY4YzkwNTwvVFJBTlNBQ1RJT05fSUQ+Cgk8L0hFQURFUj4KCTxQQVlMT0FEPgoJCTxDUkVBVEVfUVVJQ0tfR0ZFX1JFU1BPTlNFIEFjY291bnRJZD0iNGQ3NGVkZjMtYzIwMS00MWNiLWFhYWYtMjNmMjI4NjQwYTI2IiBTbWFydEdGRUlkPSIxNTQ4MzkwMSIgTG9hbk51bWJlcj0iYjQwOTdjNTctZmMxMS00YmMzLThkMzYtNjFlYzFkNzI1ODg4IiBBZGRyZXNzPSJSIFN0cmVldCIgQ2l0eT0iU2FuIEpvc2UiIFN0YXRlPSJDQSIgWmlwPSI5NTEzMCIgTG9hblB1cnBvc2U9IlJlZmluYW5jZSIgQ3JlYXRlZEJ5PSJDVlFBMDIiPgoJCQk8Q3JpdGVyaWEgTmFtZT0iSHVkTWFwVmVyc2lvbiIgVmFsdWU9IjQwOC1WMyIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iUXVvdGVUeXBlIiBWYWx1ZT0iUHJlUXVhbCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iUHJlUXVhbERhdGUiIFZhbHVlPSIxMC8xMC8yMDE4Ii8+CgkJCTxDcml0ZXJpYSBOYW1lPSJBZGRyZXNzIiBWYWx1ZT0iUiBTdHJlZXQiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkNpdHkiIFZhbHVlPSJTYW4gSm9zZSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iU3RhdGUiIFZhbHVlPSJDQSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iWklQIiBWYWx1ZT0iOTUxMzAiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkNvdW50eU5hbWUiIFZhbHVlPSJTYW50YSBDbGFyYSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iQ291bnR5SWQiIFZhbHVlPSIyOTk1Ii8+CgkJCTxDcml0ZXJpYSBOYW1lPSJMYXRpdHVkZSIgVmFsdWU9IjM3LjI4NTE1NiIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTG9uZ2l0dWRlIiBWYWx1ZT0iLTEyMS45Nzc4MjEiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlByb3BlcnR5SW5zcGVjdGlvbldhaXZlciIgVmFsdWU9ImZhbHNlIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJOb0FwcHJhaXNhbFJlcXVpcmVkIiBWYWx1ZT0iIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJBbW9ydGl6YXRpb25UeXBlIiBWYWx1ZT0iRml4ZWQiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkFwcHJhaXNhbFByb2R1Y3ROYW1lIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJCYXRoIiBWYWx1ZT0iNCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iQmVkcyIgVmFsdWU9IjUiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkZvdW5kYXRpb25UeXBlIiBWYWx1ZT0iUGllckJlYW0iLz4KCQkJPENyaXRlcmlhIE5hbWU9IkFkanVzdGVkTG9hbkFtb3VudCIgVmFsdWU9IjI3MDAwMCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTG90U2l6ZVNxdWFyZUZlZXQiIFZhbHVlPSI0MzEyNCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTnVtYmVyT2ZGbG9vcnMiIFZhbHVlPSIyIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJQcm9wZXJ0eVR5cGUiIFZhbHVlPSJTaW5nbGVGYW1pbHkiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlByb3BlcnR5VmFsdWUiIFZhbHVlPSIiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlJlaGFiaWxpdGF0aW9uQ29zdCIgVmFsdWU9IiIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iU3F1YXJlRmVldCIgVmFsdWU9IjI0MDAiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlllYXJCdWlsdCIgVmFsdWU9IjE5MzAiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkJvcnJvd2VyTmFtZSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iQ3JlYXRlZEJ5IiBWYWx1ZT0iQ1ZRQTAyIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJMb2FuTnVtYmVyIiBWYWx1ZT0iYjQwOTdjNTctZmMxMS00YmMzLThkMzYtNjFlYzFkNzI1ODg4Ii8+CgkJCTxDcml0ZXJpYSBOYW1lPSJMb2FuUHVycG9zZSIgVmFsdWU9IlJlZmluYW5jZSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iR3VhcmFudGVlRXhwaXJhdGlvbkRhdGUiIFZhbHVlPSIiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlJlc2lkZW5jZVR5cGUiIFZhbHVlPSJQcmltYXJ5UmVzaWRlbmNlIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJOdW1iZXJPZlVuaXRzIiBWYWx1ZT0iMSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTG9hblR5cGUiIFZhbHVlPSJDb252ZW50aW9uYWwiLz4KCQkJPENyaXRlcmlhIE5hbWU9IklzUGxhbm5lZFVuaXREZXZlbG9wbWVudCIgVmFsdWU9IkZhbHNlIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJJc1JlZmluYW5jZVN0cmVhbWxpbmUiIFZhbHVlPSJGYWxzZSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTE9TSUQiIFZhbHVlPSJiNDA5N2M1Ny1mYzExLTRiYzMtOGQzNi02MWVjMWQ3MjU4ODgiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkZpcHMiIFZhbHVlPSIwNjA4NSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iU2V0dGxlbWVudERhdGUiIFZhbHVlPSIxMS8wOS8yMDE4Ii8+CgkJCTxDcml0ZXJpYSBOYW1lPSJPdXRzdGFuZGluZ1ByaW5jaXBhbEJhbGFuY2UiIFZhbHVlPSIyNzAwMDAiLz4KCQkJPENyaXRlcmlhIE5hbWU9IklzUmVmaW5hbmNlQ2FzaE91dCIgVmFsdWU9IkZhbHNlIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJTdWJvcmRpbmF0aW9uIiBWYWx1ZT0iMCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iRXN0aW1hdGVkUHJvcGVydHlWYWx1ZSIgVmFsdWU9IjQ1MDAwMCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTnVtYmVyT2ZMaWVucyIgVmFsdWU9IjEiLz4KCQkJPENyaXRlcmlhIE5hbWU9IkxpZW5Qb3NpdGlvbklkIiBWYWx1ZT0iRmlyc3RMaWVuIi8+CgkJCTxDcml0ZXJpYSBOYW1lPSJTdWJvcmRpbmF0ZUZpbmFuY2luZ0lzTmV3SW5kaWNhdG9yIiBWYWx1ZT0iZmFsc2UiLz4KCQkJPENyaXRlcmlhIE5hbWU9IlN1Ym9yZGluYXRlRmluYW5jaW5nSXNOZXdJbmRpY2F0b3JTb3VyY2UiIFZhbHVlPSJkZWZhdWx0Ii8+CgkJCTxDcml0ZXJpYSBOYW1lPSJDb25zdHJ1Y3Rpb25Ub1Blcm1JbmRpY2F0b3IiIFZhbHVlPSJmYWxzZSIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iQ29uc3RydWN0aW9uVG9QZXJtSW5kaWNhdG9yU291cmNlIiBWYWx1ZT0iZGVmYXVsdCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iTG9hblByb2dyYW0iIFZhbHVlPSJTdGFuZGFyZCIvPgoJCQk8Q3JpdGVyaWEgTmFtZT0iVGF4QXV0aG9yaXR5SWQiIFZhbHVlPSJ4eHgiLz4KCQkJPENyaXRlcmlhIE5hbWU9InN1Z2dlc3RlZFRheEF1dGhvcml0eU5hbWUiIFZhbHVlPSJPdGhlciBMb2NhbGl0eSIvPgoJCQk8SHVkU3VtbWFyeT4KCQkJCTxIdWRJdGVtIE5hbWU9IlNldHRsZW1lbnQgRmVlIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjU1MC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9Ik5hdGlvbnMgTGVuZGluZyBTZXJ2aWNlcyIgSXNBUFI9InRydWUiIEJ1eWVyQW1vdW50PSI1NTAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iU2V0dGxlbWVudEFuZEVzY3Jvd1NlcnZpY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJTZXJ2aWNlUHJvdmlkZXIiIFBhcnRJZD0iU2V0dGxlbWVudEFuZEVzY3Jvd1NlcnZpY2UiLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9IkxlbmRlcnMgVGl0bGUgSW5zdXJhbmNlIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSI2NDUuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIj4KCQkJCQk8SHVkUGFydCBOYW1lPSJMZW5kZXIncyBUaXRsZSBQb2xpY3kiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjY0NS4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IlRpdGxlTGVuZGVyc1BvbGljeSIgUGFydElkPSJUaXRsZUxlbmRlcnNQb2xpY3kiLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9IkJpbmRlci9Db21taXRtZW50IiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIwLjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCI+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iVGl0bGUgQmluZGVyL0NvbW1pdG1lbnQiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iVGl0bGVJbnN1cmFuY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJTZXJ2aWNlUHJvdmlkZXJGZWUiIFBhcnRJZD0iVGl0bGVCaW5kZXJDb21taXRtZW50Ii8+CgkJCQk8L0h1ZEl0ZW0+CgkJCQk8SHVkSXRlbSBOYW1lPSJDb3VyaWVyL01lc3NlbmdlciBGZWVzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIj4KCQkJCQk8SHVkUGFydCBOYW1lPSJDb3VyaWVyL01lc3NlbmdlciBGZWVzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iU2V0dGxlbWVudEFuZEVzY3Jvd1NlcnZpY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJTZXJ2aWNlUHJvdmlkZXJGZWUiIFBhcnRJZD0iQ291cmllck1lc3NlbmdlckZlZXMiLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9IkRvY3VtZW50IFByZXBhcmF0aW9uIEZlZXMiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIj4KCQkJCQk8SHVkUGFydCBOYW1lPSJEb2N1bWVudCBQcmVwYXJhdGlvbiBGZWVzIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIwLjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IkRvY3VtZW50UHJlcGFyYXRpb25GZWVzIi8+CgkJCQk8L0h1ZEl0ZW0+CgkJCQk8SHVkSXRlbSBOYW1lPSIgRSBEb2MvRG9jdW1lbnQgU3RvcmFnZS9BcmNoaXZlL0NvcGllcyBGZWUiIElzQVBSPSJ0cnVlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IkUtRG9jIEZlZSIgSXNBUFI9InRydWUiIEJ1eWVyQW1vdW50PSIwLjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IkVEb2NGZWUiLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9IkxvYW4gUGF5b2ZmIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIj4KCQkJCQk8SHVkUGFydCBOYW1lPSJMb2FuIFBheW9mZiIgSXNBUFI9InRydWUiIEJ1eWVyQW1vdW50PSIwLjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IkxvYW5QYXlvZmYiLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9Ik5vdGFyeSBGZWUiIElzQVBSPSJ0cnVlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9Ik5vdGFyeSBGZWVzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iU2V0dGxlbWVudEFuZEVzY3Jvd1NlcnZpY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJTZXJ2aWNlUHJvdmlkZXJGZWUiIFBhcnRJZD0iTm90YXJ5RmVlcyIvPgoJCQkJPC9IdWRJdGVtPgoJCQkJPEh1ZEl0ZW0gTmFtZT0iT3Zlcm5pZ2h0IEZlZXMiIElzQVBSPSJ0cnVlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9Ik92ZXJuaWdodCBGZWVzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjAuMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iU2V0dGxlbWVudEFuZEVzY3Jvd1NlcnZpY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJTZXJ2aWNlUHJvdmlkZXJGZWUiIFBhcnRJZD0iT3Zlcm5pZ2h0RmVlcyIvPgoJCQkJPC9IdWRJdGVtPgoJCQkJPEh1ZEl0ZW0gTmFtZT0iUmVjb3JkaW5nIFNlcnZpY2VzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjM4LjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCI+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iUmVjb3JkaW5nIFNlcnZpY2VzIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9IjM4LjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IlJlY29yZGluZ1NlcnZpY2VzIi8+CgkJCQk8L0h1ZEl0ZW0+CgkJCQk8SHVkSXRlbSBOYW1lPSJUaXRsZSBFeGFtaW5hdGlvbiIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IlRpdGxlIEV4YW1pbmF0aW9uIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIwLjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IlRpdGxlRXhhbWluYXRpb24iLz4KCQkJCTwvSHVkSXRlbT4KCQkJCTxIdWRJdGVtIE5hbWU9IlRpdGxlIFNlYXJjaCBBYnN0cmFjdCIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IlRpdGxlIFNlYXJjaC9BYnN0cmFjdCIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMC4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJTZXR0bGVtZW50QW5kRXNjcm93U2VydmljZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IlNlcnZpY2VQcm92aWRlckZlZSIgUGFydElkPSJUaXRsZVNlYXJjaEFic3RyYWN0Ii8+CgkJCQk8L0h1ZEl0ZW0+CgkJCQk8SHVkSXRlbSBOYW1lPSJXaXJlIFRyYW5zZmVyIEZlZSIgSXNBUFI9InRydWUiIEJ1eWVyQW1vdW50PSI3NS4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IldpcmUgVHJhbnNmZXIgRmVlIiBJc0FQUj0idHJ1ZSIgQnV5ZXJBbW91bnQ9Ijc1LjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlNldHRsZW1lbnRBbmRFc2Nyb3dTZXJ2aWNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iU2VydmljZVByb3ZpZGVyRmVlIiBQYXJ0SWQ9IldpcmVUcmFuc2ZlckZlZSIvPgoJCQkJPC9IdWRJdGVtPgoJCQkJPEh1ZEl0ZW0gTmFtZT0iRW5kb3JzZW1lbnQgRmVlIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIyNS4wMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IkFMVEEgNSAtIFBsYW5uZWQgVW5pdCBEZXZlbG9wbWVudCIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIgUGFydElkPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJDTFRBIDExMC45IC0gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIExpZW4iIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iVGl0bGVJbnN1cmFuY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiIFBhcnRJZD0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50Ii8+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iQUxUQSA5IC0gUmVzdHJpY3Rpb25zLCBFbmNyb2FjaG1lbnRzLCBNaW5lcmFscyIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIgUGFydElkPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJBTFRBIDE0LjMgLSBGdXR1cmUgQWR2YW5jZSAtIFJldmVyc2UgTW9ydGdhZ2UiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iVGl0bGVJbnN1cmFuY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiIFBhcnRJZD0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50Ii8+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iQUxUQSA0IC0gQ29uZG9taW5pdW0iIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iVGl0bGVJbnN1cmFuY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiIFBhcnRJZD0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50Ii8+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iQUxUQSA3IC0gTWFudWZhY3R1cmVkIEhvdXNpbmcgVW5pdCIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIgUGFydElkPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJDTFRBIDEwMy4zIC0gRWFzZW1lbnQsIEV4aXN0aW5nIEVuY3JvYWNobWVudCIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIgUGFydElkPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJBTFRBIDIyIC0gTG9jYXRpb24iIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iVGl0bGVJbnN1cmFuY2UiIFNlcnZpY2VQcm92aWRlcklkPSJhNGU2ODQyOS1mODA5LTQ4NDctOTczYy1mMWE3NDRiNGVkNjEiIFBhcnRUeXBlPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiIFBhcnRJZD0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50Ii8+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iUmV2ZXJzZSBNb3J0Z2FnZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJUaXRsZUluc3VyYW5jZSIgU2VydmljZVByb3ZpZGVySWQ9ImE0ZTY4NDI5LWY4MDktNDg0Ny05NzNjLWYxYTc0NGI0ZWQ2MSIgUGFydFR5cGU9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIgUGFydElkPSJMZW5kZXJzUG9saWN5RW5kb3JzZW1lbnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJBTFRBIDYgLSBWYXJpYWJsZSBSYXRlIE1vcnRnYWdlIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlRpdGxlSW5zdXJhbmNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50IiBQYXJ0SWQ9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIvPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IkNMVEEgMTE2IC0gRGVzaWduYXRpb24gb2YgSW1wcm92ZW1lbnRzLCBBZGRyZXNzIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSIwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlRpdGxlSW5zdXJhbmNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50IiBQYXJ0SWQ9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIvPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IkFMVEEgOC4xIC0gRW52aXJvbm1lbnRhbCBQcm90ZWN0aW9uIExpZW4iIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjI1LjAwIiBTZWxsZXJBbW91bnQ9IjAiIExlbmRlckFtb3VudD0iMCIgU2VydmljZVR5cGU9IlRpdGxlSW5zdXJhbmNlIiBTZXJ2aWNlUHJvdmlkZXJJZD0iYTRlNjg0MjktZjgwOS00ODQ3LTk3M2MtZjFhNzQ0YjRlZDYxIiBQYXJ0VHlwZT0iTGVuZGVyc1BvbGljeUVuZG9yc2VtZW50IiBQYXJ0SWQ9IkxlbmRlcnNQb2xpY3lFbmRvcnNlbWVudCIvPgoJCQkJPC9IdWRJdGVtPgoJCQkJPEh1ZEl0ZW0gTmFtZT0iUmVjb3JkaW5nIERvY3VtZW50cyIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iNDA2LjAwMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIj4KCQkJCQk8SHVkUGFydCBOYW1lPSJNb3J0Z2FnZSAvIERlZWQgb2YgVHJ1c3QgLSBCYXNlIGZlZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMTUuMDAwMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJSZWNvcmRpbmdGZWVzIiBTZXJ2aWNlUHJvdmlkZXJJZD0iMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiBQYXJ0VHlwZT0iUmVjb3JkaW5nRmVlU2VjdXJpdHlJbnN0cnVtZW50IiBQYXJ0SWQ9IlJlY29yZGluZ0ZlZU1vcnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJNb3J0Z2FnZSAvIERlZWQgb2YgVHJ1c3QgLSBEb2N1bWVudCBwYWdlIGZlZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iOTAuMDAwMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJSZWNvcmRpbmdGZWVzIiBTZXJ2aWNlUHJvdmlkZXJJZD0iMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiBQYXJ0VHlwZT0iUmVjb3JkaW5nRmVlU2VjdXJpdHlJbnN0cnVtZW50IiBQYXJ0SWQ9IlJlY29yZGluZ0ZlZU1vcnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJNb3J0Z2FnZSAvIERlZWQgb2YgVHJ1c3QgLSBCdWlsZGluZyBIb21lcyAmYW1wOyBKb2JzIEFjdCBmZWUiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjE1MCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJSZWNvcmRpbmdGZWVzIiBTZXJ2aWNlUHJvdmlkZXJJZD0iMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiBQYXJ0VHlwZT0iUmVjb3JkaW5nRmVlU2VjdXJpdHlJbnN0cnVtZW50IiBQYXJ0SWQ9IlJlY29yZGluZ0ZlZU1vcnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJNb3J0Z2FnZSAvIERlZWQgb2YgVHJ1c3QgLSBFeGNlc3MgdGl0bGVzIGZlZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMTUuMDAwMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJSZWNvcmRpbmdGZWVzIiBTZXJ2aWNlUHJvdmlkZXJJZD0iMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiBQYXJ0VHlwZT0iUmVjb3JkaW5nRmVlU2VjdXJpdHlJbnN0cnVtZW50IiBQYXJ0SWQ9IlJlY29yZGluZ0ZlZU1vcnQiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJNb3J0Z2FnZSAvIERlZWQgb2YgVHJ1c3QgLSBSZWFsIGVzdGF0ZSBmcmF1ZCBwcm9zZWN1dGlvbiBmZWUiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjIwLjAwMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iUmVjb3JkaW5nRmVlcyIgU2VydmljZVByb3ZpZGVySWQ9IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIgUGFydFR5cGU9IlJlY29yZGluZ0ZlZVNlY3VyaXR5SW5zdHJ1bWVudCIgUGFydElkPSJSZWNvcmRpbmdGZWVNb3J0Ii8+CgkJCQkJPEh1ZFBhcnQgTmFtZT0iUmVsZWFzZSBvZiBSZWFsIEVzdGF0ZSBMaWVuIC0gQmFzZSBmZWUiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjE1LjAwMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iUmVjb3JkaW5nRmVlcyIgU2VydmljZVByb3ZpZGVySWQ9IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIgUGFydFR5cGU9IlJlY29yZGluZ0ZlZVJlbGVhc2UiIFBhcnRJZD0iUmVjb3JkaW5nRmVlTGllblIiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJSZWxlYXNlIG9mIFJlYWwgRXN0YXRlIExpZW4gLSBEb2N1bWVudCBwYWdlIGZlZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iMTIuMDAwMCIgU2VsbGVyQW1vdW50PSIwIiBMZW5kZXJBbW91bnQ9IjAiIFNlcnZpY2VUeXBlPSJSZWNvcmRpbmdGZWVzIiBTZXJ2aWNlUHJvdmlkZXJJZD0iMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwIiBQYXJ0VHlwZT0iUmVjb3JkaW5nRmVlUmVsZWFzZSIgUGFydElkPSJSZWNvcmRpbmdGZWVMaWVuUiIvPgoJCQkJCTxIdWRQYXJ0IE5hbWU9IlJlbGVhc2Ugb2YgUmVhbCBFc3RhdGUgTGllbiAtIEJ1aWxkaW5nIEhvbWVzICZhbXA7IEpvYnMgQWN0IGZlZSIgSXNBUFI9ImZhbHNlIiBCdXllckFtb3VudD0iNzUiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iUmVjb3JkaW5nRmVlcyIgU2VydmljZVByb3ZpZGVySWQ9IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIgUGFydFR5cGU9IlJlY29yZGluZ0ZlZVJlbGVhc2UiIFBhcnRJZD0iUmVjb3JkaW5nRmVlTGllblIiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJSZWxlYXNlIG9mIFJlYWwgRXN0YXRlIExpZW4gLSBEb2N1bWVudCByZWZlcmVuY2UgZmVlIiBJc0FQUj0iZmFsc2UiIEJ1eWVyQW1vdW50PSI0LjAwMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iUmVjb3JkaW5nRmVlcyIgU2VydmljZVByb3ZpZGVySWQ9IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIgUGFydFR5cGU9IlJlY29yZGluZ0ZlZVJlbGVhc2UiIFBhcnRJZD0iUmVjb3JkaW5nRmVlTGllblIiLz4KCQkJCQk8SHVkUGFydCBOYW1lPSJSZWxlYXNlIG9mIFJlYWwgRXN0YXRlIExpZW4gLSBSZWFsIGVzdGF0ZSBmcmF1ZCBwcm9zZWN1dGlvbiBmZWUiIElzQVBSPSJmYWxzZSIgQnV5ZXJBbW91bnQ9IjEwLjAwMDAiIFNlbGxlckFtb3VudD0iMCIgTGVuZGVyQW1vdW50PSIwIiBTZXJ2aWNlVHlwZT0iUmVjb3JkaW5nRmVlcyIgU2VydmljZVByb3ZpZGVySWQ9IjAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMCIgUGFydFR5cGU9IlJlY29yZGluZ0ZlZVJlbGVhc2UiIFBhcnRJZD0iUmVjb3JkaW5nRmVlTGllblIiLz4KCQkJCTwvSHVkSXRlbT4KCQkJPC9IdWRTdW1tYXJ5PgoJCTwvQ1JFQVRFX1FVSUNLX0dGRV9SRVNQT05TRT4KCTwvUEFZTE9BRD4KPC9SRVNQT05TRT4K"
+  },
+  "hcltv": 0.00,
+  "ltv": 61.29,
+  "searchId": "1462413633E1539708976",
+  "searchTime": "2018-10-16T16:56:16.4592469Z",
+  "lenders": [
+    {
+      "lenderName": "Lender One",
+      "lenderIdentifier": "123456",
+      "brokerApproved": true,
+      "productTypes": [
+        {
+          "loanType": "VA",
+          "products": [
+            {
+              "amortizationType": "Fixed",
+              "apr": 4.75,
+              "closingCost": 0.0,
+              "discount": 0.0,
+              "eligible": false,
+              "interestOnly": false,
+              "lastUpdate": "2018-10-16T00:01:00Z",
+              "loanTerm": 30,
+              "lockPeriod": 30,
+              "monthlyMI": 0.0,
+              "originationFees": 0.0,
+              "pendingUpdate": false,
+              "price": 100.299,
+              "priceStatus": "Available",
+              "principalAndInterest": 1439.0,
+              "productCode": "",
+              "productIdentifier": "23379708",
+              "productName": "Citibank, N.A. VA 30 Yr Fixed GNMA II",
+              "rate": 4.75,
+              "rebate": 825.0,
+              "totalMarginAdjustment": 0.0,
+              "totalPayment": 0.0,
+              "totalPriceAdjustment": -0.35,
+              "totalRateAdjustment": 0.0,
+              "totalSRPAdjustment": 0.0,
+              "totalLoanAmountDetails": {
+                "totalLoanAmount": 0.0,
+                "upfrontPMI_MIP_FF_GF_Amount": 0.0,
+                "upfrontPMI_MIP_FF_GF_FinancedAmount": 0.0,
+                "upfrontPMI_MIP_FF_GF_PaidinCash": 0.0,
+                "upfrontPMI_MIP_FF_GF_Percent": 0.0
+              },
+              "productDetails": {
+                "activeType": "1",
+                "assumable": false,
+                "ausDefaultType": "DU",
+                "ausTypes": [ "DU", "LPA" ],
+                "excludeMIforLTVUnder": false,
+                "investorName": "Investor",
+                "investorRuleDescriptionType": "One",
+                "investorRuleType": "One",
+                "loanBalanceType": "NonConforming",
+                "perDiemInterestPeriodType": "365",
+                "pmiTerminationMethodType": "FNMA",
+                "userDefinedValues": 0
+              },
+              "quotes": [
+                {
+
+                  "armMargin": 0.0,
+                  "closingCost": 17834.0,
+                  "discountDollar": 17834.0,
+                  "discountPercent": 6.466,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "lockPeriod": 15,
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "monthlyMI": 0.0,
+                  "price": 93.534,
+                  "principalAndInterest": 1200.0,
+                  "rate": 3.25,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                },
+                {
+                  "armMargin": 0.0,
+                  "closingCost": 16272.0,
+                  "discountDollar": 16272.0,
+                  "discountPercent": 5.9,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "lockPeriod": 15,
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "price": 94.1,
+                  "principalAndInterest": 1219.0,
+                  "rate": 3.375,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                },
+                {
+                  "armMargin": 0.0,
+                  "closingCost": 14750.0,
+                  "discountDollar": 14750.0,
+                  "discountPercent": 5.348,
+                  "lockPeriod": 15,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "price": 94.652,
+                  "principalAndInterest": 1238.0,
+                  "rate": 3.5,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                }
+              ],
+              "adjustments": [
+                {
+                  "reason": "FICO is >700",
+                  "adjustor": "-0.250",
+                  "type": "Adjust Price"
+                },
+                {
+                  "reason": "State is CA",
+                  "adjustor": "-0.100",
+                  "type": "Adjust Price"
+                }
+              ],
+              "parQuotes": [
+                {
+                  "parRate": 4.75,
+                  "parPrice": 100.37,
+                  "parLock": 15
+                },
+                {
+                  "parRate": 4.75,
+                  "parPrice": 100.299,
+                  "parLock": 30
+                },
+                {
+                  "parRate": 4.75,
+                  "parPrice": 100.189,
+                  "parLock": 45
+                },
+                {
+                  "parRate": 4.75,
+                  "parPrice": 100.145,
+                  "parLock": 60
+                },
+                {
+                  "parRate": 4.75,
+                  "parPrice": 100.036,
+                  "parLock": 75
+                },
+                {
+                  "parRate": 5.0,
+                  "parPrice": 100.298,
+                  "parLock": 90
+                }
+              ],
+              "notesAndAdvisories": [
+                "Note:  Loan amount field must include total loan amount (base loan amount + any VA financed funding fee).  May be subject to additional restrictions.  Please contact lender for additional details. ",
+                "For this scenario, AUS Not Specified was run through eligibility and pricing as DU or LP.",
+                "Additional CRA Premium Pricing may be available. Please contact the Lender for further details.",
+                "Pricing displayed is calculated on the Total Loan Amount. "
+              ],
+              "miData": {
+                "miIdentifier": "",
+                "miTerminationMethodType": "No Auto Termination",
+                "miPremiums": [
+                  {
+                    "sequenceNumber": 1,
+                    "miPremiumDetails": [
+                      {
+                        "miPremiumPeriodType": "Renewal",
+                        "miPremiumMonthlyPaymentAmount": 25.5,
+						"miPremiumRateDurationMonthsCount": 12,
+						"miPremiumRatePercent": 0.5,
+						"miPremiumSequenceType": "First"
+                      }
+                    ]
+                  }
+                ] 
+              }
+            },
+            {
+              "amortizationType": "Fixed",
+              "apr": 4.125,
+              "closingCost": 0.0,
+              "discount": 0.0,
+              "eligible": true,
+              "interestOnly": false,
+              "lastUpdate": "2018-10-16T00:01:00Z",
+              "loanTerm": 30,
+              "lockPeriod": 30,
+              "monthlyMI": 0.0,
+              "originationFees": 0.0,
+              "pendingUpdate": false,
+              "price": 100.318,
+              "priceStatus": "Available",
+              "principalAndInterest": 1337.0,
+              "productCode": "TEMP_GVF30",
+              "productIdentifier": "23379292",
+              "productName": "BB&T -  VA 30 Yr Fixed",
+              "rate": 4.125,
+              "rebate": 877.0,
+              "totalMarginAdjustment": 0.0,
+              "totalPayment": 0.0,
+              "totalPriceAdjustment": 0.0,
+              "totalRateAdjustment": 0.0,
+              "totalSRPAdjustment": 2.22,
+              "totalLoanAmountDetails": {
+                "totalLoanAmount": 0.0,
+                "upfrontPMI_MIP_FF_GF_Amount": 0.0,
+                "upfrontPMI_MIP_FF_GF_FinancedAmount": 0.0,
+                "upfrontPMI_MIP_FF_GF_PaidinCash": 0.0,
+                "upfrontPMI_MIP_FF_GF_Percent": 0.0
+              },
+              "productDetails": {
+                "activeType": "1",
+                "assumable": false,
+                "ausDefaultType": "DU",
+                "ausTypes": [ "DU", "LPA" ],
+                "excludeMIforLTVUnder": false,
+                "investorName": "Investor",
+                "investorRuleDescriptionType": "One",
+                "investorRuleType": "One",
+                "loanBalanceType": "NonConforming",
+                "perDiemInterestPeriodType": "365",
+                "pmiTerminationMethodType": "FNMA",
+                "userDefinedValues": 0
+              },
+              "quotes": [
+                {
+                  "armMargin": 0.0,
+                  "closingCost": 7309.0,
+                  "discountDollar": 7309.0,
+                  "discountPercent": 2.65,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "lockPeriod": 15,
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "price": 97.35,
+                  "principalAndInterest": 1238.0,
+                  "rate": 3.5,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                },
+                {
+                  "armMargin": 0.0,
+                  "closingCost": 6236.0,
+                  "discountDollar": 6236.0,
+                  "discountPercent": 2.261,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "lockPeriod": 15,
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "price": 97.739,
+                  "principalAndInterest": 1258.0,
+                  "rate": 3.625,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                },
+                {
+                  "armMargin": 0.0,
+                  "closingCost": 3078.0,
+                  "discountDollar": 3078.0,
+                  "discountPercent": 1.116,
+                  "lockExpirationDate": "2018-10-30T00:00:00Z",
+                  "lockPeriod": 15,
+                  "loCompensationDollar": 347.0,
+                  "loCompensationPercent": 0.126,
+                  "price": 98.884,
+                  "principalAndInterest": 1277.0,
+                  "rate": 3.75,
+                  "rebateDollar": 0.0,
+                  "rebatePercent": 0.0,
+                  "totalCredit": 0.0,
+                  "originatorCompensationDollar": 1.0,
+                  "originatorCompensationPercent": 1.0
+                }
+              ],
+              "adjustments": [
+                {
+                  "reason": "State is Group 2, And Loan Amt (Total) is >$200,000",
+                  "adjustor": "2.250",
+                  "type": "Adjust SRP"
+                },
+                {
+                  "reason": "Government Fixed SRP",
+                  "adjustor": "-0.030",
+                  "type": "Adjust SRP"
+                }
+              ],
+              "parQuotes": [
+                {
+                  "parRate": 4.125,
+                  "parPrice": 100.352,
+                  "parLock": 15
+                },
+                {
+                  "parRate": 4.125,
+                  "parPrice": 100.318,
+                  "parLock": 30
+                },
+                {
+                  "parRate": 4.125,
+                  "parPrice": 100.236,
+                  "parLock": 45
+                },
+                {
+                  "parRate": 4.125,
+                  "parPrice": 100.126,
+                  "parLock": 60
+                }
+              ],
+              "notesAndAdvisories": [
+                "Pricing displayed is calculated on the Total Loan Amount.  Lender calculates VA adjustments off of the Base Loan Amount. Please contact Lender for pricing difference, and further details. ",
+                "Note:  Loan amount field must include total loan amount (base loan amount + any VA financed funding fee).  May be subject to additional restrictions.  Please contact lender for additional details. ",
+                "If rate and term loan purpose is selected on a fully documented loan ï¿½ lender considers this a cashout.  If using streamline documentation please re-run as a VA IRRRL.",
+                "Pricing displayed is calculated on the Total Loan Amount. ",
+                "Note:  Loan amount field must include total loan amount (base loan amount + any VA financed funding fee).  May be subject to additional restrictions.  Please contact lender for additional details. "
+              ],
+              "miData": {
+                "miIdentifier": "",
+                "miTerminationMethodType": "No Auto Termination",
+                "miPremiums": [
+                  {
+                    "sequenceNumber": 1,
+                    "miPremiumDetails": [
+                      {
+                        "miPremiumPeriodType": "Renewal",
+                        "miPremiumMonthlyPaymentAmount": 25.5,
+						"miPremiumRateDurationMonthsCount": 12,
+						"miPremiumRatePercent": 0.5,
+						"miPremiumSequenceType": "First"
+                      }
+                    ]
+                  }
+                ] 
+              }
+            }
+          ],
+          "lenderFees": [
+            {
+              "description": "Lenders Title Insurance",
+              "hudLineNumber": "",
+              "subHudLineNumber": "",
+              "isAPR": false,
+              "totalAmount": 645.0,
+              "payments": [
+                {
+                  "amount": 645.0,
+                  "paidBy": "Borrower",
+                  "paidOutsideOfClose": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "actualFees": {
+        "feeVendorName": "",
+        "feeType": "Actual",
+        "feePayload": null
+      }
+    }
+  ]
+}

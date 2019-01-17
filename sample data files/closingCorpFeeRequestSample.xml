@@ -1,0 +1,23 @@
+<CreateQuickGfeRequest>
+  <AdjustedLoanAmount>135000.00</AdjustedLoanAmount>
+  <PropertyType>$$$$</PropertyType>
+  <ResidenceType>Investment</ResidenceType>
+  <AmortizationType>Fixed</AmortizationType>
+  <EstimatedPropertyValue>175900.00</EstimatedPropertyValue>
+  <PropertyValue>175900.00</PropertyValue>
+  <SettlementDate>01/19/2019</SettlementDate>
+  <Address>368 Atkins ave</Address>
+  <City>New York City</City>
+  <State>NY</State>
+  <Zip>10021</Zip>
+  <Fips>36061</Fips>
+  <LoanPurpose>Purchase</LoanPurpose>
+  <LoanType>Conventional</LoanType>
+  <LoanNumber>ARV828</LoanNumber>
+  <CountyName>New York</CountyName>
+  <CountyId>36061</CountyId>
+  <LotSizeSquareFeet>43124.40</LotSizeSquareFeet>
+  <NumberOfFloors>1</NumberOfFloors>
+  <IsPlannedUnitDevelopment>true</IsPlannedUnitDevelopment>
+  <LienPositionId>FirstLien</LienPositionId>
+</CreateQuickGfeRequest>

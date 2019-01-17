@@ -1,0 +1,1291 @@
+<PricingFeeRequest xmlns="http://www.cloudvirga.com/schemas/PricingFee/v1">
+  <HEADER Version="1.0.1" SourceSystem="ARIVE" DestinationSystem="CV">
+    <KEY Id="LoanId" Value="SomeLoanID"  xmlns="http://www.cloudvirga.com/schemas/Common/v1" />
+  </HEADER>
+  <BODY>
+  <MESSAGE MISMOReferenceModelIdentifier="3.4" xmlns="http://www.mismo.org/residential/2009/schemas" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <DEAL_SETS>
+        <DEAL_SET>
+            <DEALS>
+                <DEAL>
+                    <ASSETS>
+                        <ASSET SequenceNumber="1" xlink:label="Asset1">
+                            <ASSET_DETAIL>
+                                <AssetAccountIdentifier>11354-1</AssetAccountIdentifier>
+                                <AssetAccountInNameOfDescription>John Borrower</AssetAccountInNameOfDescription>
+                                <AssetAccountType>BorrowerManagedAccount</AssetAccountType>
+                                <AssetCashOrMarketValueAmount>100000.00</AssetCashOrMarketValueAmount>
+                                <AssetDescription />
+                                <AssetLiquidityIndicator>true</AssetLiquidityIndicator>
+                                <AssetNetValueAmount>100000.00</AssetNetValueAmount>
+                                <AssetType>Other</AssetType>
+                                <AssetTypeOtherDescription>OtherLiquidAsset</AssetTypeOtherDescription>
+                                <AutomobileMakeDescription />
+                                <VerifiedIndicator>false</VerifiedIndicator>
+                            </ASSET_DETAIL>
+                            <ASSET_HOLDER>
+                                <CONTACT_POINTS />
+                                <NAME>
+                                    <FullName>Chase</FullName>
+                                </NAME>
+                            </ASSET_HOLDER>
+                        </ASSET>
+                        <ASSET SequenceNumber="2" xlink:label="Asset2">
+                            <ASSET_DETAIL>
+                                <AssetAccountIdentifier />
+                                <AssetAccountInNameOfDescription>John Borrower</AssetAccountInNameOfDescription>
+                                <AssetAccountType>BorrowerManagedAccount</AssetAccountType>
+                                <AssetCashOrMarketValueAmount>51000.00</AssetCashOrMarketValueAmount>
+                                <AssetDescription />
+                                <AssetLiquidityIndicator>true</AssetLiquidityIndicator>
+                                <AssetNetValueAmount>51000.00</AssetNetValueAmount>
+                                <AssetType>Other</AssetType>
+                                <AutomobileMakeDescription />
+                                <VerifiedIndicator>false</VerifiedIndicator>
+                            </ASSET_DETAIL>
+                            <ASSET_HOLDER>
+                                <CONTACT_POINTS />
+                            </ASSET_HOLDER>
+                        </ASSET>
+                        <ASSET SequenceNumber="4">
+                            <OWNED_PROPERTY xlink:label="OwnedProperty2">
+                                <OWNED_PROPERTY_DETAIL>
+                                    <OwnedPropertyDispositionStatusType>Retain</OwnedPropertyDispositionStatusType>
+                                    <OwnedPropertyLienInstallmentAmount>0.00</OwnedPropertyLienInstallmentAmount>
+                                    <OwnedPropertyLienUPBAmount>0.00</OwnedPropertyLienUPBAmount>
+                                    <OwnedPropertyMaintenanceExpenseAmount>0.00</OwnedPropertyMaintenanceExpenseAmount>
+                                    <OwnedPropertyOwnedUnitCount>1</OwnedPropertyOwnedUnitCount>
+                                    <OwnedPropertySubjectIndicator>false</OwnedPropertySubjectIndicator>
+                                </OWNED_PROPERTY_DETAIL>
+                                <PROPERTY SequenceNumber="1">
+                                    <ADDRESS>
+                                        <AddressLineText>234 Main St</AddressLineText>
+                                        <AddressType>Current</AddressType>
+                                        <AddressUnitIdentifier />
+                                        <CityName>Beverly Hills</CityName>
+                                        <CountyName>Los Angeles</CountyName>
+                                        <PostalCode>90210</PostalCode>
+                                        <StateCode>CA</StateCode>
+                                    </ADDRESS>
+                                    <LEGAL_DESCRIPTIONS>
+                                        <LEGAL_DESCRIPTION>
+                                            <UNPARSED_LEGAL_DESCRIPTIONS>
+                                                <UNPARSED_LEGAL_DESCRIPTION>
+                                                    <UnparsedLegalDescription>See Preliminary Report/Title Commitment</UnparsedLegalDescription>
+                                                </UNPARSED_LEGAL_DESCRIPTION>
+                                            </UNPARSED_LEGAL_DESCRIPTIONS>
+                                        </LEGAL_DESCRIPTION>
+                                    </LEGAL_DESCRIPTIONS>
+                                    <NEIGHBORHOOD>
+                                        <HOUSINGS>
+                                            <HOUSING SequenceNumber="1">
+                                                <NeighborhoodHousingType>SingleFamily</NeighborhoodHousingType>
+                                                <NeighborhoodHousingTypeOtherDescription />
+                                            </HOUSING>
+                                        </HOUSINGS>
+                                    </NEIGHBORHOOD>
+                                    <PROJECT />
+                                    <PROPERTY_DETAIL>
+                                        <AttachmentType>Attached</AttachmentType>
+                                        <FinancedUnitCount>1</FinancedUnitCount>
+                                        <GrossLivingAreaSquareFeetNumber>2400.0000000000</GrossLivingAreaSquareFeetNumber>
+                                        <PropertyAcreageNumber>0.9900000000</PropertyAcreageNumber>
+                                        <PropertyEstimatedValueAmount>220000.00</PropertyEstimatedValueAmount>
+                                        <PropertyUsageType>PrimaryResidence</PropertyUsageType>
+                                        <PUDIndicator>false</PUDIndicator>
+                                    </PROPERTY_DETAIL>
+                                    <SALES_HISTORIES />
+                                    <SITE>
+                                        <SITE_SIZE_LAYOUT>
+                                            <LotSizeAreaNumber>0.9900000000</LotSizeAreaNumber>
+                                            <UnitOfMeasureType>Acres</UnitOfMeasureType>
+                                        </SITE_SIZE_LAYOUT>
+                                    </SITE>
+                                </PROPERTY>
+                            </OWNED_PROPERTY>
+                        </ASSET>
+                    </ASSETS>
+                    <COLLATERALS>
+                        <COLLATERAL>
+                            <SUBJECT_PROPERTY SequenceNumber="1">
+                                <ADDRESS>
+								  <AddressLineText>123 Purchase St.</AddressLineText>
+								  <AddressType>Primary</AddressType>
+								  <AddressUnitIdentifier />
+								  <CityName>Costa Mesa</CityName>
+								  <CountyName>Orange</CountyName>
+								  <PostalCode>92627</PostalCode>
+								  <StateCode>CA</StateCode>
+                                </ADDRESS>
+                                <LEGAL_DESCRIPTIONS>
+                                    <LEGAL_DESCRIPTION>
+                                        <UNPARSED_LEGAL_DESCRIPTIONS>
+                                            <UNPARSED_LEGAL_DESCRIPTION>
+                                                <UnparsedLegalDescription>See Preliminary Report/Title Commitment</UnparsedLegalDescription>
+                                            </UNPARSED_LEGAL_DESCRIPTION>
+                                        </UNPARSED_LEGAL_DESCRIPTIONS>
+                                    </LEGAL_DESCRIPTION>
+                                </LEGAL_DESCRIPTIONS>
+								<LOCATION_IDENTIFIER>
+								  <FIPS_INFORMATION>
+									<FIPSPlaceCode>06059</FIPSPlaceCode>
+								  </FIPS_INFORMATION>
+								</LOCATION_IDENTIFIER>
+                                <NEIGHBORHOOD>
+                                    <HOUSINGS>
+                                        <HOUSING SequenceNumber="1">
+                                            <NeighborhoodHousingType>SingleFamily</NeighborhoodHousingType>
+                                            <NeighborhoodHousingTypeOtherDescription />
+                                        </HOUSING>
+                                    </HOUSINGS>
+                                </NEIGHBORHOOD>
+                                <PROJECT />
+                                <PROPERTY_DETAIL>
+                                    <AttachmentType>Detached</AttachmentType>
+                                    <FinancedUnitCount>1</FinancedUnitCount>
+                                    <GrossLivingAreaSquareFeetNumber>2400.0000000000</GrossLivingAreaSquareFeetNumber>
+                                    <PropertyAcreageNumber>0.9900000000</PropertyAcreageNumber>
+                                    <PropertyEstateType>FeeSimple</PropertyEstateType>
+                                    <PropertyEstimatedValueAmount>300000.00</PropertyEstimatedValueAmount>
+                                    <PropertyOriginalCostAmount>300000.00</PropertyOriginalCostAmount>
+                                    <PropertyStructureBuiltYear>1919</PropertyStructureBuiltYear>
+                                    <PropertyUsageType>PrimaryResidence</PropertyUsageType>
+                                    <PUDIndicator>false</PUDIndicator>
+                                </PROPERTY_DETAIL>
+                                <PROPERTY_VALUATIONS>
+                                	<PROPERTY_VALUATION>
+                                		<PROPERTY_VALUATION_DETAIL>
+                                			<PropertyValuationAmount>300000.00</PropertyValuationAmount>
+                                		</PROPERTY_VALUATION_DETAIL>
+                                	</PROPERTY_VALUATION>
+                                </PROPERTY_VALUATIONS>
+                                <SALES_HISTORIES />
+                                <SITE>
+                                    <SITE_SIZE_LAYOUT>
+                                        <LotSizeAreaNumber>0.9900000000</LotSizeAreaNumber>
+                                        <UnitOfMeasureType>Acres</UnitOfMeasureType>
+                                    </SITE_SIZE_LAYOUT>
+                                </SITE>
+                            </SUBJECT_PROPERTY>
+                        </COLLATERAL>
+                    </COLLATERALS>
+                    <EXPENSES />
+                    <LIABILITIES>
+                        <LIABILITY SequenceNumber="1" xlink:label="Liability1">
+                            <LIABILITY_DETAIL>
+                                <LiabilityAccountIdentifier>15468-CAR</LiabilityAccountIdentifier>
+                                <LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
+                                <LiabilityMonthlyPaymentAmount>250.00</LiabilityMonthlyPaymentAmount>
+                                <LiabilityPaymentIncludesTaxesInsuranceIndicator>false</LiabilityPaymentIncludesTaxesInsuranceIndicator>
+                                <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator>
+                                <LiabilityRemainingTermMonthsCount>60</LiabilityRemainingTermMonthsCount>
+                                <LiabilityType>Installment</LiabilityType>
+                                <LiabilityUnpaidBalanceAmount>10000.00</LiabilityUnpaidBalanceAmount>
+                            </LIABILITY_DETAIL>
+                            <LIABILITY_HOLDER>
+                                <CONTACT_POINTS />
+                                <NAME>
+                                    <FullName>MSUFCU</FullName>
+                                </NAME>
+                            </LIABILITY_HOLDER>
+                        </LIABILITY>
+                        <LIABILITY_SUMMARY>
+                            <TotalSubjectPropertyPayoffsAndPaymentsAmount>0.00</TotalSubjectPropertyPayoffsAndPaymentsAmount>
+                        </LIABILITY_SUMMARY>
+                    </LIABILITIES>
+                    <LOANS>
+                        <LOAN SequenceNumber="1">
+                            <ADJUSTMENT>
+                                <INTEREST_RATE_ADJUSTMENT>
+                                    <INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+                                        <MarginRatePercent>0</MarginRatePercent>
+                                    </INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+                                </INTEREST_RATE_ADJUSTMENT>
+                            </ADJUSTMENT>
+                            <AMORTIZATION>
+                                <AMORTIZATION_RULE>
+                                    <AmortizationType>Fixed</AmortizationType>
+                                    <LoanAmortizationMaximumTermMonthsCount>360</LoanAmortizationMaximumTermMonthsCount>
+                                    <LoanAmortizationPeriodCount>360</LoanAmortizationPeriodCount>
+                                </AMORTIZATION_RULE>
+                            </AMORTIZATION>
+                            <CLOSING_INFORMATION>
+                                <CLOSING_INFORMATION_DETAIL>
+									<ClosingDate>2019-12-05</ClosingDate>
+                                    <LoanEstimatedClosingDate>2018-12-05</LoanEstimatedClosingDate>
+                                </CLOSING_INFORMATION_DETAIL>
+								<COMPENSATIONS>
+									<COMPENSATION>
+										<CompensationPaidByType>Borrower</CompensationPaidByType>
+									</COMPENSATION>
+								</COMPENSATIONS>
+                            </CLOSING_INFORMATION>
+                            <DOCUMENT_SPECIFIC_DATA_SETS>
+                                <DOCUMENT_SPECIFIC_DATA_SET SequenceNumber="1">
+                                    <URLA>
+                                        <URLA_DETAIL>
+                                            <ApplicationSignedByLoanOriginatorDate>2018-11-21</ApplicationSignedByLoanOriginatorDate>
+                                            <ApplicationTakenMethodType>Telephone</ApplicationTakenMethodType>
+                                            <BorrowerRequestedInterestRatePercent>4.625</BorrowerRequestedInterestRatePercent>
+											<PurchasePriceAmount>220000.00</PurchasePriceAmount>
+                                        </URLA_DETAIL>
+                                    </URLA>
+                                </DOCUMENT_SPECIFIC_DATA_SET>
+                            </DOCUMENT_SPECIFIC_DATA_SETS>
+                            <DOWN_PAYMENTS />
+                            <ESCROW>
+                                <ESCROW_ITEMS>
+                                    <ESCROW_ITEM SequenceNumber="1">
+                                        <ESCROW_ITEM_DETAIL>
+                                            <EscrowCollectedNumberOfMonthsCount>0</EscrowCollectedNumberOfMonthsCount>
+                                            <EscrowItemType>HomeownersAssociationDues</EscrowItemType>
+                                            <EscrowMonthlyPaymentAmount>150.00</EscrowMonthlyPaymentAmount>
+                                            <EscrowPaymentFrequencyType>Monthly</EscrowPaymentFrequencyType>
+                                        </ESCROW_ITEM_DETAIL>
+                                    </ESCROW_ITEM>
+                                    <ESCROW_ITEM SequenceNumber="2">
+                                        <ESCROW_ITEM_DETAIL>
+                                            <EscrowCollectedNumberOfMonthsCount>2</EscrowCollectedNumberOfMonthsCount>
+                                            <EscrowItemType>HomeownersInsurance</EscrowItemType>
+                                            <EscrowMonthlyPaymentAmount>67.23</EscrowMonthlyPaymentAmount>
+                                            <EscrowPaymentFrequencyType>Monthly</EscrowPaymentFrequencyType>
+                                            <EscrowSpecifiedHUD1LineNumberValue>1002</EscrowSpecifiedHUD1LineNumberValue>
+                                        </ESCROW_ITEM_DETAIL>
+                                    </ESCROW_ITEM>
+                                    <ESCROW_ITEM SequenceNumber="3">
+                                        <ESCROW_ITEM_DETAIL>
+                                            <EscrowCollectedNumberOfMonthsCount>6</EscrowCollectedNumberOfMonthsCount>
+                                            <EscrowItemType>PropertyTax</EscrowItemType>
+                                            <EscrowMonthlyPaymentAmount>312.50</EscrowMonthlyPaymentAmount>
+                                            <EscrowPaymentFrequencyType>Monthly</EscrowPaymentFrequencyType>
+                                            <EscrowSpecifiedHUD1LineNumberValue>1004</EscrowSpecifiedHUD1LineNumberValue>
+                                        </ESCROW_ITEM_DETAIL>
+                                    </ESCROW_ITEM>
+                                    <ESCROW_ITEM SequenceNumber="4">
+                                        <ESCROW_ITEM_DETAIL>
+                                            <EscrowCollectedNumberOfMonthsCount>2</EscrowCollectedNumberOfMonthsCount>
+                                            <EscrowItemType>FloodInsurance</EscrowItemType>
+                                            <EscrowMonthlyPaymentAmount>16.67</EscrowMonthlyPaymentAmount>
+                                            <EscrowPaymentFrequencyType>Monthly</EscrowPaymentFrequencyType>
+                                            <EscrowSpecifiedHUD1LineNumberValue>1006</EscrowSpecifiedHUD1LineNumberValue>
+                                        </ESCROW_ITEM_DETAIL>
+                                    </ESCROW_ITEM>
+                                </ESCROW_ITEMS>
+                            </ESCROW>
+                            <FEE_INFORMATION>
+                                <FEES>
+                                    <FEE SequenceNumber="1">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>13551.02</FeeActualTotalAmount>
+                                            <FeeDescription>Loan Amount Points</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>802b</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>13551.02</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="2">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>450.00</FeeActualTotalAmount>
+                                            <FeeDescription>Appraisal Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>804</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>450.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="3">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>500.00</FeeActualTotalAmount>
+                                            <FeeDescription>MERS Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>818</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>500.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="4">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>661.77</FeeActualTotalAmount>
+                                            <FeeDescription>Pre-paid Interest</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>901</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>661.77</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="5">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>806.76</FeeActualTotalAmount>
+                                            <FeeDescription>Homeowners Insurance</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue />
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>806.76</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="6">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>3112.50</FeeActualTotalAmount>
+                                            <FeeDescription>VA Funding Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>905</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>3112.50</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                        <SELECTED_SERVICE_PROVIDER>
+                                            <LEGAL_ENTITY>
+                                                <LEGAL_ENTITY_DETAIL>
+                                                    <FullName>Veterans Administration</FullName>
+                                                </LEGAL_ENTITY_DETAIL>
+                                            </LEGAL_ENTITY>
+                                        </SELECTED_SERVICE_PROVIDER>
+                                    </FEE>
+                                    <FEE SequenceNumber="7">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>134.46</FeeActualTotalAmount>
+                                            <FeeDescription>Homeowners Insurance</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1002</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>134.46</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="8">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>1875.00</FeeActualTotalAmount>
+                                            <FeeDescription>Property Taxes</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1004</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>1875.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="9">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>33.34</FeeActualTotalAmount>
+                                            <FeeDescription>Flood Insurance</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1006</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>33.34</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="10">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>13.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Recording Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1117</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>13.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="11">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>100.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Document Prep Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1112</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>100.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="12">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>3400.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Settlement or Closing Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1102</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>3400.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="13">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>1495.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Owner\'s Title Insurance (Optional)</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1103</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>1495.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="14">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>845.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Lender\'s Title Insurance</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1104</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>845.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="15">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>200.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Loan Tie-In Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1115</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>200.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="16">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>50.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Courier/Wire/E-Mail Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1118</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>50.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="17">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>150.00</FeeActualTotalAmount>
+                                            <FeeDescription>Title - Notary Fee</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1113</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>150.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="18">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>1119.00</FeeActualTotalAmount>
+                                            <FeeDescription>NY CEMA</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1330</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>37.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>58.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Lender</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>24.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Lender</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="5">
+                                                <FeeEstimatedPaymentAmount>125.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="6">
+                                                <FeeEstimatedPaymentAmount>875.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                        <SELECTED_SERVICE_PROVIDER>
+                                            <LEGAL_ENTITY>
+                                                <LEGAL_ENTITY_DETAIL>
+                                                    <FullName>Nations Lending Services</FullName>
+                                                </LEGAL_ENTITY_DETAIL>
+                                            </LEGAL_ENTITY>
+                                        </SELECTED_SERVICE_PROVIDER>
+                                    </FEE>
+                                    <FEE SequenceNumber="19">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>46.00</FeeActualTotalAmount>
+                                            <FeeDescription>Deed</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1202a</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>46.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="20">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>137.00</FeeActualTotalAmount>
+                                            <FeeDescription>Mortgage</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1202b</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>137.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                    <FEE SequenceNumber="21">
+                                        <FEE_DETAIL>
+                                            <FeeActualTotalAmount>3075.00</FeeActualTotalAmount>
+                                            <FeeDescription>City/County Tax Stamp - Deed</FeeDescription>
+                                            <FeeSpecifiedHUD1LineNumberValue>1204a</FeeSpecifiedHUD1LineNumberValue>
+                                        </FEE_DETAIL>
+                                        <FEE_PAYMENTS>
+                                            <FEE_PAYMENT SequenceNumber="1">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="2">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Buyer</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="3">
+                                                <FeeEstimatedPaymentAmount>0.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>true</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                            <FEE_PAYMENT SequenceNumber="4">
+                                                <FeeEstimatedPaymentAmount>3075.00</FeeEstimatedPaymentAmount>
+                                                <FeePaymentPaidByType>Seller</FeePaymentPaidByType>
+                                                <FeePaymentPaidOutsideOfClosingIndicator>false</FeePaymentPaidOutsideOfClosingIndicator>
+                                            </FEE_PAYMENT>
+                                        </FEE_PAYMENTS>
+                                    </FEE>
+                                </FEES>
+                            </FEE_INFORMATION>
+                            <GOVERNMENT_LOAN>
+                                <GovernmentRefinanceType>FullDocumentation</GovernmentRefinanceType>
+                                <PreviousVAHomeLoanIndicator>true</PreviousVAHomeLoanIndicator>
+                                <SectionOfActType>203B</SectionOfActType>
+                                <VAFundingFeeExemptionType>NotExempt</VAFundingFeeExemptionType>
+                                <VAHouseholdSizeCount>0</VAHouseholdSizeCount>
+                            </GOVERNMENT_LOAN>
+                            <HOUSING_EXPENSES>
+                                <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>312.50</HousingExpensePaymentAmount>
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>RealEstateTax</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>67.23</HousingExpensePaymentAmount>
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>HomeownersInsurance</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>16.67</HousingExpensePaymentAmount>
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>FloodInsurance</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>150.00</HousingExpensePaymentAmount>
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>HomeownersAssociationDuesAndCondominiumFees</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE>
+                                    <HousingExpensePaymentAmount>1132.10</HousingExpensePaymentAmount>
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>FirstMortgagePrincipalAndInterest</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                            </HOUSING_EXPENSES>
+                            <LOAN_DETAIL>
+                                <AssumabilityIndicator>false</AssumabilityIndicator>
+                                <EscrowIndicator>true</EscrowIndicator>
+                            </LOAN_DETAIL>
+                            <LOAN_IDENTIFIERS>
+                                <LOAN_IDENTIFIER SequenceNumber="3">
+                                    <LoanIdentifier>6477170e-bcf7-420d-be77-8089ec039486</LoanIdentifier>
+                                    <LoanIdentifierType>Other</LoanIdentifierType>
+                                    <LoanIdentifierTypeOtherDescription>ExpressPOSLoan</LoanIdentifierTypeOtherDescription>
+                                </LOAN_IDENTIFIER>
+								<LOAN_IDENTIFIER>
+								  <LoanIdentifier>9999999</LoanIdentifier>
+								  <LoanIdentifierType>Other</LoanIdentifierType>
+								  <LoanIdentifierTypeOtherDescription>Customer Internal Id</LoanIdentifierTypeOtherDescription>
+								</LOAN_IDENTIFIER>
+                            </LOAN_IDENTIFIERS>
+							<LOAN_LEVEL_CREDIT>
+                    			 <LOAN_LEVEL_CREDIT_DETAIL>
+                                    <LoanLevelCreditScoreValue>750</LoanLevelCreditScoreValue>
+                        		</LOAN_LEVEL_CREDIT_DETAIL>
+							</LOAN_LEVEL_CREDIT>
+                            <LOAN_PRODUCT>
+                                <LOAN_PRODUCT_DETAIL>
+                                    <ProductIdentifier>362</ProductIdentifier>
+                                    <ProductName>Conforming Conventional 30 Year Fixed</ProductName>
+                                </LOAN_PRODUCT_DETAIL>
+                                <LOCKS>
+                                    <LOCK SequenceNumber="1">
+                                        <LockDurationDaysCount>30</LockDurationDaysCount>
+                                    </LOCK>
+                                </LOCKS>
+                            </LOAN_PRODUCT>
+                            <LOAN_STATUSES>
+                                <LOAN_STATUS />
+                            </LOAN_STATUSES>
+                            <MI_DATA>
+                                <MI_DATA_DETAIL>
+                                    <MIPremiumFinancedIndicator>true</MIPremiumFinancedIndicator>
+                                </MI_DATA_DETAIL>
+                            </MI_DATA>
+                            <ORIGINATION_SYSTEMS>
+                                <ORIGINATION_SYSTEM />
+                            </ORIGINATION_SYSTEMS>
+                            <PAYMENT>
+                                <PAYMENT_RULE>
+                                    <PaymentFrequencyType>Monthly</PaymentFrequencyType>
+                                </PAYMENT_RULE>
+                            </PAYMENT>
+                            <PREPAYMENT_PENALTY />
+                            <PURCHASE_CREDITS />
+                            <REFINANCE />
+                            <TERMS_OF_LOAN>
+                                <BaseLoanAmount>170000.00</BaseLoanAmount>
+                                <LienPriorityType>FirstLien</LienPriorityType>
+                                <LoanPurposeType>Purchase</LoanPurposeType>
+                                <MortgageType>VA</MortgageType>
+                                <NoteAmount>249000</NoteAmount>
+								<NoteRatePercent>4.625</NoteRatePercent>
+                            </TERMS_OF_LOAN>
+                            <UNDERWRITING>
+                                <AUTOMATED_UNDERWRITINGS>
+                                    <AUTOMATED_UNDERWRITING SequenceNumber="1">
+                                        <AutomatedUnderwritingSystemType>DesktopUnderwriter</AutomatedUnderwritingSystemType>
+                                    </AUTOMATED_UNDERWRITING>
+                                </AUTOMATED_UNDERWRITINGS>
+                            </UNDERWRITING>
+							<EXTENSION>
+								<OTHER> 
+									<PRICING_SEARCH_CRITERIA xmlns="http://www.cloudvirga.com/schemas/PricingFee/v1">
+										<AMORTIZATION_TYPES>
+											<AMORTIZATION_TYPE>
+												<AmortizationType>Fixed</AmortizationType>
+											</AMORTIZATION_TYPE>
+											<AMORTIZATION_TYPE>
+												<AmortizationType>AdjustableRate</AmortizationType>
+											</AMORTIZATION_TYPE>
+										</AMORTIZATION_TYPES>
+										<LOAN_PRODUCTS>
+											<LOAN_PRODUCT>
+												<LoanProductType>StandardProducts</LoanProductType>
+											</LOAN_PRODUCT>
+										</LOAN_PRODUCTS>
+										<LOAN_TERMS>
+											<LOAN_TERM>
+												<LoanTermInYears>30</LoanTermInYears>
+											</LOAN_TERM>
+										</LOAN_TERMS>
+										<MORTGAGE_TYPES>
+											<MORTGAGE_TYPE>
+												<MortgageType>Conventional</MortgageType>
+											</MORTGAGE_TYPE>
+											<MORTGAGE_TYPE>
+												<MortgageType>FHA</MortgageType>
+											</MORTGAGE_TYPE>
+											<MORTGAGE_TYPE>
+												<MortgageType>VA</MortgageType>
+											</MORTGAGE_TYPE>
+										</MORTGAGE_TYPES>
+									</PRICING_SEARCH_CRITERIA>
+								</OTHER>
+							</EXTENSION>
+                        </LOAN>
+                    </LOANS>
+                    <PARTIES>
+                        <PARTY SequenceNumber="2">
+                            <INDIVIDUAL>
+                                <CONTACT_POINTS>
+                                    <CONTACT_POINT SequenceNumber="1">
+                                        <CONTACT_POINT_EMAIL>
+                                            <ContactPointEmailValue>j.borrower@loanborrower.com</ContactPointEmailValue>
+                                        </CONTACT_POINT_EMAIL>
+                                        <CONTACT_POINT_DETAIL>
+                                            <ContactPointPreferenceIndicator>false</ContactPointPreferenceIndicator>
+                                        </CONTACT_POINT_DETAIL>
+                                    </CONTACT_POINT>
+                                    <CONTACT_POINT SequenceNumber="2">
+                                        <CONTACT_POINT_TELEPHONE>
+                                            <ContactPointTelephoneValue>2699991256</ContactPointTelephoneValue>
+                                        </CONTACT_POINT_TELEPHONE>
+                                        <CONTACT_POINT_DETAIL>
+                                            <ContactPointPreferenceIndicator>true</ContactPointPreferenceIndicator>
+                                            <ContactPointRoleType>Home</ContactPointRoleType>
+                                        </CONTACT_POINT_DETAIL>
+                                    </CONTACT_POINT>
+                                </CONTACT_POINTS>
+                                <NAME>
+                                    <FirstName>John</FirstName>
+                                    <FullName>John Borrower</FullName>
+                                    <LastName>Borrower</LastName>
+                                    <MiddleName />
+                                    <SuffixName />
+                                </NAME>
+                            </INDIVIDUAL>
+                            <ADDRESSES>
+                                <ADDRESS>
+                                    <AddressLineText>234 Main St</AddressLineText>
+                                    <AddressType>Mailing</AddressType>
+                                    <AddressUnitIdentifier />
+                                    <CityName>Beverly Hills</CityName>
+                                    <CountyName>Los Angeles</CountyName>
+                                    <PostalCode>90210</PostalCode>
+                                    <StateCode>CA</StateCode>
+                                </ADDRESS>
+                            </ADDRESSES>
+                            <ROLES>
+                                <ROLE SequenceNumber="1" xlink:label="Borrower2">
+                                    <BORROWER>
+                                        <BORROWER_DETAIL>
+                                            <BorrowerAgeAtApplicationYearsCount>18</BorrowerAgeAtApplicationYearsCount>
+                                            <BorrowerBirthDate>2000-11-20</BorrowerBirthDate>
+                                            <BorrowerClassificationType>Primary</BorrowerClassificationType>
+                                            <BorrowerMailToAddressSameAsPropertyIndicator>true</BorrowerMailToAddressSameAsPropertyIndicator>
+                                            <DependentCount>3</DependentCount>
+                                            <EmploymentStateType>Employed</EmploymentStateType>
+                                            <MaritalStatusType>Unmarried</MaritalStatusType>
+                                            <SchoolingYearsCount>17</SchoolingYearsCount>
+                                            <SelfDeclaredMilitaryServiceIndicator>true</SelfDeclaredMilitaryServiceIndicator>
+                                        </BORROWER_DETAIL>
+                                        <CURRENT_INCOME>
+                                            <CURRENT_INCOME_DETAIL>
+                                                <URLABorrowerTotalMonthlyIncomeAmount>15000.00</URLABorrowerTotalMonthlyIncomeAmount>
+                                            </CURRENT_INCOME_DETAIL>
+                                            <CURRENT_INCOME_ITEMS>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="CurrentIncomeItem1">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>15000.00</CurrentIncomeMonthlyTotalAmount>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator>
+                                                        <IncomeType>Base</IncomeType>
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                            </CURRENT_INCOME_ITEMS>
+                                        </CURRENT_INCOME>
+                                        <DECLARATION>
+                                            <DECLARATION_DETAIL>
+                                                <AlimonyChildSupportObligationIndicator>false</AlimonyChildSupportObligationIndicator>
+                                                <BankruptcyIndicator>false</BankruptcyIndicator>
+                                                <CitizenshipResidencyType>USCitizen</CitizenshipResidencyType>
+                                                <CoMakerEndorserOfNoteIndicator>false</CoMakerEndorserOfNoteIndicator>
+                                                <HomeownerPastThreeYearsType>No</HomeownerPastThreeYearsType>
+                                                <IntentToOccupyType>Yes</IntentToOccupyType>
+                                                <LoanForeclosureOrJudgmentIndicator>false</LoanForeclosureOrJudgmentIndicator>
+                                                <OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
+                                                <PartyToLawsuitIndicator>false</PartyToLawsuitIndicator>
+                                                <PresentlyDelinquentIndicator>false</PresentlyDelinquentIndicator>
+                                                <PriorPropertyForeclosureCompletedIndicator>false</PriorPropertyForeclosureCompletedIndicator>
+                                                <UndisclosedBorrowedFundsIndicator>false</UndisclosedBorrowedFundsIndicator>
+                                            </DECLARATION_DETAIL>
+                                        </DECLARATION>
+                                        <DEPENDENTS>
+                                            <DEPENDENT SequenceNumber="1">
+                                                <DependentAgeYearsCount>1</DependentAgeYearsCount>
+                                            </DEPENDENT>
+                                            <DEPENDENT SequenceNumber="2">
+                                                <DependentAgeYearsCount>4</DependentAgeYearsCount>
+                                            </DEPENDENT>
+                                            <DEPENDENT SequenceNumber="3">
+                                                <DependentAgeYearsCount>8</DependentAgeYearsCount>
+                                            </DEPENDENT>
+                                        </DEPENDENTS>
+                                        <EMPLOYERS>
+                                            <EMPLOYER SequenceNumber="1" xlink:label="Employer1">
+                                                <LEGAL_ENTITY>
+                                                    <ALIASES />
+                                                    <CONTACTS>
+                                                        <CONTACT>
+                                                            <CONTACT_POINTS>
+                                                                <CONTACT_POINT SequenceNumber="1">
+                                                                    <CONTACT_POINT_TELEPHONE>
+                                                                        <ContactPointTelephoneValue>9254512152</ContactPointTelephoneValue>
+                                                                    </CONTACT_POINT_TELEPHONE>
+                                                                    <CONTACT_POINT_DETAIL>
+                                                                        <ContactPointRoleType>Work</ContactPointRoleType>
+                                                                    </CONTACT_POINT_DETAIL>
+                                                                </CONTACT_POINT>
+                                                            </CONTACT_POINTS>
+                                                        </CONTACT>
+                                                    </CONTACTS>
+                                                    <LEGAL_ENTITY_DETAIL>
+                                                        <FullName>Tesla</FullName>
+                                                    </LEGAL_ENTITY_DETAIL>
+                                                </LEGAL_ENTITY>
+                                                <ADDRESS>
+                                                    <AddressLineText>123 Tesla Ln</AddressLineText>
+                                                    <AddressType>Other</AddressType>
+                                                    <AddressUnitIdentifier />
+                                                    <CityName>Beverly Hills</CityName>
+                                                    <CountyName>Los Angeles</CountyName>
+                                                    <PostalCode>90210</PostalCode>
+                                                    <StateCode>CA</StateCode>
+                                                </ADDRESS>
+                                                <EMPLOYMENT>
+                                                    <EmploymentBorrowerSelfEmployedIndicator>false</EmploymentBorrowerSelfEmployedIndicator>
+                                                    <EmploymentClassificationType>Primary</EmploymentClassificationType>
+                                                    <EmploymentMonthsOnJobCount>107</EmploymentMonthsOnJobCount>
+                                                    <EmploymentPositionDescription>Tesla Sales</EmploymentPositionDescription>
+                                                    <EmploymentStartDate>2009-12-10</EmploymentStartDate>
+                                                    <EmploymentStatusType>Current</EmploymentStatusType>
+                                                    <EmploymentTimeInLineOfWorkYearsCount>17</EmploymentTimeInLineOfWorkYearsCount>
+                                                    <EmploymentTypeOfBusinessDescription>Automotive</EmploymentTypeOfBusinessDescription>
+                                                    <EmploymentYearsOnJobCount>8</EmploymentYearsOnJobCount>
+                                                </EMPLOYMENT>
+                                            </EMPLOYER>
+                                        </EMPLOYERS>
+                                        <GOVERNMENT_BORROWER>
+                                            <FHABorrowerCertificationLeadPaintIndicator>false</FHABorrowerCertificationLeadPaintIndicator>
+                                            <FHABorrowerCertificationOwnFourOrMoreDwellingsIndicator>false</FHABorrowerCertificationOwnFourOrMoreDwellingsIndicator>
+                                            <FHABorrowerCertificationOwnOtherPropertyIndicator>false</FHABorrowerCertificationOwnOtherPropertyIndicator>
+                                            <FHABorrowerCertificationPropertyToBeSoldIndicator>false</FHABorrowerCertificationPropertyToBeSoldIndicator>
+                                            <VABorrowerSurvivingSpouseIndicator>false</VABorrowerSurvivingSpouseIndicator>
+                                        </GOVERNMENT_BORROWER>
+                                        <GOVERNMENT_MONITORING>
+                                            <GOVERNMENT_MONITORING_DETAIL>
+                                                <HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator>false</HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator>
+                                                <HMDAEthnicityRefusalIndicator>true</HMDAEthnicityRefusalIndicator>
+                                                <HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator>false</HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator>
+                                                <HMDAGenderRefusalIndicator>true</HMDAGenderRefusalIndicator>
+                                                <HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator>false</HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator>
+                                                <HMDARaceRefusalIndicator>true</HMDARaceRefusalIndicator>
+                                                <HMDARefusalIndicator>false</HMDARefusalIndicator>
+                                                <RaceNationalOriginRefusalIndicator>false</RaceNationalOriginRefusalIndicator>
+                                            </GOVERNMENT_MONITORING_DETAIL>
+                                            <HMDA_ETHNICITY_ORIGINS />
+                                            <HMDA_RACES />
+                                        </GOVERNMENT_MONITORING>
+                                        <HOUSING_EXPENSES />
+                                        <MILITARY_SERVICES>
+                                            <MILITARY_SERVICE SequenceNumber="1">
+                                                <MilitaryBranchType>AirForce</MilitaryBranchType>
+                                                <MilitaryStatusType>Veteran</MilitaryStatusType>
+                                            </MILITARY_SERVICE>
+                                        </MILITARY_SERVICES>
+                                        <NEAREST_LIVING_RELATIVE>
+                                            <NAME>
+                                                <FullName />
+                                            </NAME>
+                                        </NEAREST_LIVING_RELATIVE>
+                                        <RESIDENCES>
+                                            <RESIDENCE SequenceNumber="1">
+                                                <ADDRESS>
+                                                    <AddressLineText>234 Main St</AddressLineText>
+                                                    <AddressType>Current</AddressType>
+                                                    <AddressUnitIdentifier />
+                                                    <CityName>Beverly Hills</CityName>
+                                                    <CountyName>Los Angeles</CountyName>
+                                                    <PostalCode>90210</PostalCode>
+                                                    <StateCode>CA</StateCode>
+                                                </ADDRESS>
+                                                <RESIDENCE_DETAIL>
+                                                    <BorrowerResidencyBasisType>Own</BorrowerResidencyBasisType>
+                                                    <BorrowerResidencyType>Current</BorrowerResidencyType>
+                                                </RESIDENCE_DETAIL>
+                                            </RESIDENCE>
+                                        </RESIDENCES>
+                                    </BORROWER>
+                                    <ROLE_DETAIL>
+                                        <PartyRoleType>Borrower</PartyRoleType>
+                                    </ROLE_DETAIL>
+                                </ROLE>
+                                <ROLE SequenceNumber="2">
+                                    <PROPERTY_OWNER>
+                                        <RelationshipVestingType>Individual</RelationshipVestingType>
+                                    </PROPERTY_OWNER>
+                                    <ROLE_DETAIL>
+                                        <PartyRoleType>PropertyOwner</PartyRoleType>
+                                    </ROLE_DETAIL>
+                                </ROLE>
+                            </ROLES>
+                            <TAXPAYER_IDENTIFIERS>
+                                <TAXPAYER_IDENTIFIER SequenceNumber="1">
+                                    <TaxpayerIdentifierType>SocialSecurityNumber</TaxpayerIdentifierType>
+                                    <TaxpayerIdentifierValue>123254465</TaxpayerIdentifierValue>
+                                </TAXPAYER_IDENTIFIER>
+                            </TAXPAYER_IDENTIFIERS>
+                        </PARTY>
+                        <PARTY SequenceNumber="6">
+                            <LEGAL_ENTITY>
+                                <CONTACTS />
+                                <LEGAL_ENTITY_DETAIL>
+                                    <FullName>Nations Lending Services</FullName>
+                                </LEGAL_ENTITY_DETAIL>
+                            </LEGAL_ENTITY>
+                            <ADDRESSES />
+                            <ROLES>
+                                <ROLE SequenceNumber="1">
+                                    <ROLE_DETAIL>
+                                        <PartyRoleType>ClosingAgent</PartyRoleType>
+                                    </ROLE_DETAIL>
+                                </ROLE>
+                            </ROLES>
+                        </PARTY>
+                    </PARTIES>
+                    <RELATIONSHIPS>
+                        <RELATIONSHIP xlink:from="Asset1" xlink:to="Borrower2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
+                        <RELATIONSHIP xlink:from="Asset2" xlink:to="Borrower2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
+                        <RELATIONSHIP xlink:from="Liability1" xlink:to="Borrower2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
+                        <RELATIONSHIP xlink:from="CurrentIncomeItem1" xlink:to="Employer1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
+                    </RELATIONSHIPS>
+                    <SERVICES />
+                </DEAL>
+            </DEALS>
+            <PARTIES />
+        </DEAL_SET>
+    </DEAL_SETS>
+</MESSAGE>
+  </BODY>
+</PricingFeeRequest>
